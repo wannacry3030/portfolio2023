@@ -1,6 +1,6 @@
 criar um efeito de zoom ao passar o mouse nos quadrados
-~
-ajustas a paleta de cores (definir a paleta)
-~
+~ ok
+ajustas a paleta de cores (definir a paleta) 
+~ ok
 decidir qual fonte ssera utilizada nesse projeto
-~
+~ ok
