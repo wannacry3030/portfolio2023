@@ -1,6 +1,4 @@
-const menuToggle = document.getElementById("menu-toggle");
-const menu = document.getElementById("menu");
-
-menuToggle.addEventListener("click", function () {
-  menu.classList.toggle("hidden");
-});
+function mostrarMenu() {
+  var menu = document.getElementById("menu");
+  menu.style.display = "block";
+}
