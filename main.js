@@ -1,4 +1,6 @@
-function mostrarMenu() {
-  var menu = document.getElementById("menu");
-  menu.style.display = "block";
-}
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+
+menuBtn.addEventListener("click", function () {
+  menu.classList.toggle("hide");
+});
