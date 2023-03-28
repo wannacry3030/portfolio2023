@@ -18,6 +18,15 @@
         background-color: #333;
         color: #fff;
       }
+      #menu {
+        display: none;
+        list-style: none;
+      }
+
+      #menu-toggle {
+        cursor: pointer;
+      }
+
       .hide {
         display: none;
       }
@@ -152,12 +161,14 @@
   </head>
 
   <body>
-    <button id="menu-btn">Menu</button>
-    <ul id="menu" class="hide">
-      <li><a href="#">Item 1</a></li>
-      <li><a href="#">Item 2</a></li>
-      <li><a href="#">Item 3</a></li>
-    </ul>
+    <div class="menu-container">
+      <img id="menu-toggle" src="/assets/gifLogoMenor.gif" alt="Menu" />
+      <ul id="menu">
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+    </div>
 
     <h1>Projetos👨‍💻</h1>
     <div class="grid">
