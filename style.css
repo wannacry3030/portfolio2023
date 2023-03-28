@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+#toggle-menu {
+  display: none;
+}
+/* MENU DE NAVEGAÇÃO */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+}
+#menu {
+  display: block;
+  list-style: none;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-hidden {
+    display: none;
+  }
+  ul.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*FIM DO MENU DE NAVEGAÇÃO */
+
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif, "Press Start 2P";
+  font-size: 16px;
+  text-align: center;
+  color: aliceblue;
+}
+h1 {
+  color: #1bee0c;
+  font-family: "Press Start 2P";
+}
+
+.grid {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5%;
+  border: 2px solid #1bee0c; /* adiciona uma borda branca de 2px */
+  box-shadow: 0px 0px 20px #1bee0c; /* adiciona um efeito de sombra branca */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* adiciona uma transição suave ao efeito de zoom e sombra */
+  cursor: pointer;
+}
+
+.square:hover {
+  box-shadow: 0 0 0 0 #1bee0c;
+  animation: pulse 0.5s infinite;
+  transform: scale(1.2); /* efeito de zoom*/
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #1bee0c;
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(0, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 255, 0);
+  }
+}
+
+.square p {
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0; /* adiciona opacidade 0 para esconder o texto */
+  transition: opacity 0.5s ease-in-out; /* adiciona uma transição suave à opacidade */
+  position: absolute; /* adiciona posicionamento absoluto */
+  bottom: 0; /* posiciona o texto na parte de baixo */
+  left: 0; /* alinha o texto à esquerda */
+  right: 0; /* alinha o texto à direita */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* adiciona um fundo branco com transparência */
+  padding: 20px; /* adiciona um espaçamento interno de 20px */
+  border-radius: 5%;
+}
+.square:hover p {
+  opacity: 1;
+}
