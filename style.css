@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
+/* cor utilizada anteriormente no efeito da pagina #1bee0c */
 /* MENU DE NAVEGAÇÃO */
 .menu {
   display: flex;
@@ -11,10 +12,6 @@
   background-color: #333;
   color: #fff;
   flex-direction: row; /* adiciona direção do flex para linha */
-}
-
-.hide {
-  display: none;
 }
 
 ul {
@@ -75,7 +72,7 @@ body {
   color: aliceblue;
 }
 h1 {
-  color: #1bee0c;
+  color: #fff;
   font-family: "Press Start 2P";
 }
 
@@ -96,21 +93,21 @@ h1 {
   background-size: cover;
   background-position: center center;
   border-radius: 5%;
-  border: 2px solid #1bee0c; /* adiciona uma borda branca de 2px */
-  box-shadow: 0px 0px 20px #1bee0c; /* adiciona um efeito de sombra branca */
+  border: 2px solid #fff; /* adiciona uma borda branca de 2px */
+  box-shadow: 0px 0px 20px #fff; /* adiciona um efeito de sombra branca */
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* adiciona uma transição suave ao efeito de zoom e sombra */
   cursor: pointer;
 }
 
 .square:hover {
-  box-shadow: 0 0 0 0 #1bee0c;
+  box-shadow: 0 0 0 0 #fff;
   animation: pulse 0.5s infinite;
   transform: scale(1.2); /* efeito de zoom*/
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 #1bee0c;
+    box-shadow: 0 0 0 0 #fff;
   }
   70% {
     box-shadow: 0 0 0 20px rgba(0, 255, 255, 0);
