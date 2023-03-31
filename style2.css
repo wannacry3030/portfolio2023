@@ -1,93 +1,128 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
+/* cor utilizada anteriormente no efeito da pagina #1bee0c */
 /* MENU DE NAVEGAÇÃO */
 .menu {
   display: flex;
   justify-content: space-between;
+  font-family: "Press Start 2P";
   align-items: center;
-  height: 60px;
-  padding: 0 50px;
-  font-family: "Roboto", sans-serif;
-  background-color: #000;
+  height: 50px;
+  padding: 0 20px;
   color: #fff;
+  flex-direction: row;
+  margin: 0 auto; /* adiciona a margem automática para centralizar */
+  background-color: #4d4d4d; /* adiciona a cor de fundo para o menu */
 }
 
-.menu a {
+.menu-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%; /* adiciona a largura de 100% */
+}
+
+.menu-container p:hover {
+  color: rgb(252, 225, 190);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
-  margin-left: 20px;
-  transition: color 0.3s ease-in-out;
 }
 
-.menu a:hover {
-  color: #1bee0c;
+@media (max-width: 768px) {
+  ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  ul.active {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-}
+/*FIM DO MENU DE NAVEGAÇÃO */
 
-/* CONTEÚDO PRINCIPAL */
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.greeting {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 30px;
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif, "Press Start 2P";
+  font-size: 16px;
   text-align: center;
+  color: aliceblue;
+  margin: 0; /* remove as margens padrão */
 }
 
-.intro {
-  font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 50px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.photo {
-  width: 300px;
-  height: 300px;
-  background-image: url("https://via.placeholder.com/300");
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-  margin-bottom: 50px;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-}
-
-.social a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-color: #1bee0c;
-  border-radius: 50%;
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.social a:hover {
-  background-color: #fff;
-}
-
-.social i {
-  font-size: 20px;
+h1 {
   color: #fff;
+  font-family: "Press Start 2P";
+  margin-top: 50px; /* adiciona uma margem superior para o título */
+  font-size: 48px; /* aumenta o tamanho da fonte do título */
+}
+
+.grid {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+  display: grid; /* usa a exibição em grade */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* define a grade como responsiva */
+  grid-gap: 40px; /* adiciona um espaçamento entre as grades */
+  justify-items: center; /* centraliza o conteúdo na grade */
+}
+
+.square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5%;
+  border: 2px solid #fff; /* adiciona uma borda branca de 2px */
+  box-shadow: 0px 0px 20px #fff; /* adiciona um efeito de sombra branca */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* adiciona uma trans */
+}
+.intro-container {
+  float: right;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.intro-container h1 {
+  font-size: 3rem;
+}
+
+.intro-container p {
+  font-size: 1.2rem;
+  margin-top: 20px;
 }
