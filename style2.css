@@ -117,32 +117,10 @@ h1 {
   font-size: 1.2rem;
   margin-top: 20px;
 }
-/* FOOTER COM ICONES */
+
 /* FOOTER */
 footer {
-  /* background-color: #4d4d4d; */
-  color: #fff;
-  padding: 50px 0;
-}
-
-.social-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-container a {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.social-container a:hover {
-  transform: translateY(-3px);
-}
-
-.social-container a i {
-  font-size: 2rem;
-  color: #fff;
+  padding: 10px 0;
 }
 
 /* ÍCONES DE REDES SOCIAIS */
