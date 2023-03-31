@@ -9,12 +9,18 @@
   align-items: center;
   height: 50px;
   padding: 0 20px;
-  /* background-color: #333; */
   color: #fff;
-  flex-direction: row; /* adiciona direção do flex para linha */
+  flex-direction: row;
+  margin: 0 auto; /* adiciona a margem automática para centralizar */
 }
-.menu:hover {
-  color: #333;
+.menu-container {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%; /* adiciona a largura de 100% */
 }
 
 ul {
