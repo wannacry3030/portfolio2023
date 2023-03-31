@@ -12,9 +12,7 @@
   color: #fff;
   flex-direction: row;
   margin: 0 auto; /* adiciona a margem automática para centralizar */
-  background-color: #4d4d4d; /* adiciona a cor de fundo para o menu */
 }
-
 .menu-container {
   position: relative;
   top: 0;
@@ -23,7 +21,6 @@
   z-index: 999;
   width: 100%; /* adiciona a largura de 100% */
 }
-
 .menu-container p:hover {
   color: rgb(252, 225, 190);
 }
@@ -73,7 +70,6 @@ body {
   font-size: 16px;
   text-align: center;
   color: aliceblue;
-  margin: 0; /* remove as margens padrão */
 }
 
 h1 {
