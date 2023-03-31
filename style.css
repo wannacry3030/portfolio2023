@@ -12,16 +12,7 @@
   padding: 0 20px;
   background-color: #333;
   color: #fff;
-
-  flex-direction: row;
-}
-#menu {
-  display: block;
-  list-style: none;
-}
-
-#menu-toggle {
-  cursor: pointer;
+  flex-direction: row; /* adiciona direção do flex para linha */
 }
 
 .hide {
