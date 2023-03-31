@@ -124,3 +124,12 @@ footer {
 }
 
 /* ÍCONES DE REDES SOCIAIS */
+
+.icons {
+  margin-right: 10px;
+}
+
+.icons:hover {
+  color: rgb(252, 225, 190);
+  cursor: pointer;
+}
