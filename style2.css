@@ -133,3 +133,7 @@ footer {
   color: rgb(252, 225, 190);
   cursor: pointer;
 }
+
+.no-effect {
+  animation: none !important;
+}
