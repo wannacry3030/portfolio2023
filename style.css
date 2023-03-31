@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
-#toggle-menu {
-  display: none;
-}
 /* MENU DE NAVEGAÇÃO */
 .menu {
   display: flex;
   justify-content: space-between;
+  font-family: "Press Start 2P";
   align-items: center;
   height: 30px;
   padding: 0 20px;
