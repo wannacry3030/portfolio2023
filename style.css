@@ -21,8 +21,8 @@
   z-index: 999;
   width: 100%; /* adiciona a largura de 100% */
 }
-.menu-container:hover .menu-text {
-  transform: scale(1.2); /* efeito de zoom*/
+.menu-container p:hover {
+  color: rgb(252, 225, 190);
 }
 
 ul {
