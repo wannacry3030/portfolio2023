@@ -1,0 +1,6 @@
+/* rem and em do NOT depend on HTML font-size in media query's  instead, 1rem = 1em = 16px*/
+/* to convert to rem, divide to 16px */
+
+/* ************* */
+/* BELLOW 1344PX (smaller desktops) */
+/* ************* */
