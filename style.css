@@ -13,6 +13,14 @@
   margin: 0 auto;
 }
 
+.intro-container h1 {
+  font-size: 3rem;
+}
+
+.intro-container p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
 .menu-container {
   position: relative;
   top: 0;
@@ -133,4 +141,24 @@ h1 {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
- 
+}
+
+/* ÍCONES DE REDES SOCIAIS */
+
+.icons {
+  margin-right: 10px;
+}
+
+.icons:hover {
+  color: rgb(252, 225, 190);
+  cursor: pointer;
+}
+
+.no-effect {
+  animation: none !important;
+}
+
+/* FOOTER */
+footer {
+  padding: 10px 0;
+}
