@@ -39,26 +39,20 @@ window.addEventListener("load", () => {
 const squares = document.querySelectorAll(".grid-item");
 
 // adiciona um evento de clique a cada quadrado
-squares.forEach((square) => {
-  square.addEventListener("click", () => {
-    // cria o elemento do pop-up
-    const popup = document.createElement("div");
-    popup.classList.add("popup");
+const gridItems = document.querySelectorAll(".grid-item");
+const modal = document.getElementById("modal");
+const modalTitle = document.getElementById("modal-title");
+const modalDescription = document.getElementById("modal-description");
+const closeBtn = document.querySelector(".close");
 
-    // adiciona a descrição da tecnologia ao pop-up
-    const techName = square.querySelector("h2").textContent;
-    const techDescription = square.querySelector("p").textContent;
-    popup.innerHTML = `
-      <h2>${techName}</h2>
-      <p>${techDescription}</p>
-    `;
-
-    // adiciona o pop-up ao body
-    document.body.appendChild(popup);
-
-    // adiciona um evento de clique para fechar o pop-up
-    popup.addEventListener("click", () => {
-      popup.remove();
-    });
+gridItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    modalTitle.textContent = item.getAttribute("data-tech");
+    modalDescription.textContent = item.getAttribute("data-desc");
+    modal.style.display = "block";
   });
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
 });
