@@ -20,6 +20,8 @@
 .intro-container p {
   font-size: 1.2rem;
   margin-top: 20px;
+  font-family: "Inter";
+  font-weight: 500;
 }
 .menu-container {
   position: relative;
@@ -85,6 +87,9 @@ h1 {
   font-family: "Press Start 2P";
 }
 
+h2 {
+  font-family: "Inter";
+}
 /* GRID */
 .grid {
   margin: 0 auto;
@@ -223,6 +228,9 @@ footer {
 }
 
 .modal-content {
+  font-family: "Inter";
+  font-weight: 500;
+  color: #585858;
   background-color: rgb(
     252,
     225,
@@ -231,6 +239,7 @@ footer {
   margin: auto; /* centraliza o conteúdo verticalmente e horizontalmente */
   padding: 20px; /* adiciona um espaço interno */
   border: 1px solid #888; /* adiciona uma borda ao redor do conteúdo */
+  border-radius: 10px;
   width: 80%; /* define a largura do conteúdo */
   max-width: 800px; /* define uma largura máxima */
   max-height: 80%; /* define uma altura máxima */
