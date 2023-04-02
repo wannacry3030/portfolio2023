@@ -39,17 +39,18 @@ window.addEventListener("load", () => {
 const squares = document.querySelectorAll(".grid-item");
 
 // adiciona um evento de clique a cada quadrado
-const gridItems = document.querySelectorAll(".grid-item");
 const modal = document.getElementById("modal");
 const modalTitle = document.getElementById("modal-title");
 const modalDescription = document.getElementById("modal-description");
 const closeBtn = document.querySelector(".close");
 
-gridItems.forEach((item) => {
+const items = document.querySelectorAll(".grid-item");
+
+items.forEach((item) => {
   item.addEventListener("click", () => {
-    modalTitle.textContent = item.getAttribute("data-tech");
-    modalDescription.textContent = item.getAttribute("data-desc");
     modal.style.display = "block";
+    modalTitle.textContent = item.querySelector("h2").textContent;
+    modalDescription.textContent = item.dataset.description;
   });
 });
 

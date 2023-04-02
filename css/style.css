@@ -204,3 +204,56 @@ footer {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.modal {
+  display: none; /* esconde o pop-up por padrão */
+  position: fixed; /* posiciona o pop-up de forma fixa na tela */
+  z-index: 1; /* define a ordem de empilhamento */
+  left: 0;
+  top: 0;
+  width: 100%; /* define a largura do pop-up */
+  height: 100%; /* define a altura do pop-up */
+  overflow: auto; /* habilita a rolagem caso o conteúdo do pop-up ultrapasse a altura da janela */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* define a cor de fundo com transparência */
+}
+
+.modal-content {
+  background-color: rgb(
+    252,
+    225,
+    190
+  ); /* define a cor de fundo do conteúdo do pop-up */
+  margin: auto; /* centraliza o conteúdo verticalmente e horizontalmente */
+  padding: 20px; /* adiciona um espaço interno */
+  border: 1px solid #888; /* adiciona uma borda ao redor do conteúdo */
+  width: 80%; /* define a largura do conteúdo */
+  max-width: 800px; /* define uma largura máxima */
+  max-height: 80%; /* define uma altura máxima */
+  overflow: auto; /* habilita a rolagem caso o conteúdo ultrapasse a altura máxima */
+  position: absolute; /* posiciona o conteúdo de forma absoluta */
+  top: 50%; /* centraliza verticalmente */
+  left: 50%; /* centraliza horizontalmente */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* move o conteúdo para cima e para a esquerda em relação à sua própria largura e altura */
+}
+
+.close {
+  color: #aaaaaa; /* define a cor do botão de fechar */
+  float: right; /* alinha o botão de fechar à direita */
+  font-size: 28px; /* define o tamanho da fonte do botão de fechar */
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000; /* muda a cor do botão de fechar quando o mouse passa por cima ou quando ele é focado */
+  text-decoration: none;
+  cursor: pointer;
+}
