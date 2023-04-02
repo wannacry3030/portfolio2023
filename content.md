@@ -35,8 +35,6 @@ tecnologias:
 
     Linux: Experiência em administração de sistemas e servidores Linux, incluindo configuração, instalação de pacotes, gerenciamento de usuários e permissões, bem como automação de tarefas com scripts shell.
 
-    PowerShell: Experiência em scripting e automação de tarefas com PowerShell no ambiente Windows, incluindo administração de servidores, gerenciamento de usuários e permissões, e criação de relatórios.
-
     JavaScript: Experiência em desenvolvimento de aplicações web front-end com JavaScript, incluindo uso de frameworks e bibliotecas como React, Angular e Vue.js.
 
     HTML/CSS: Experiência em desenvolvimento de interfaces web com HTML e CSS, incluindo layout responsivo, animações e interatividade com JavaScript.
