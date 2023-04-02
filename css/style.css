@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
+/* FADE in ao carregar a page */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* MENU DE NAVEGAÇÃO */
 .menu {
   display: flex;
