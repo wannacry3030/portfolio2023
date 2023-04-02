@@ -172,9 +172,9 @@ footer {
 
 /*item de grade */
 .grid-item {
-  background-color: #6b6b6b;
+  background-color: #6b6b6b6b;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 10px 10px;
   text-align: center;
   cursor: pointer;
 }
