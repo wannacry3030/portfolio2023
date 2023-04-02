@@ -174,7 +174,7 @@ footer {
 .grid-item {
   background-color: #6b6b6b6b;
   border: 1px solid #ccc;
-  padding: 10px 10px;
+  padding: 5px;
   text-align: center;
   cursor: pointer;
 }
@@ -182,17 +182,6 @@ footer {
 /*item de grade quando ele é passado com o mouse */
 .grid-item:hover {
   background-color: #ddd;
-}
-
-/* item de grade individual */
-.git {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-}
-
-.linux {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
 }
 
 /* estilo para dispositivos móveis */
