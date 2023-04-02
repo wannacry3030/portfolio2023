@@ -28,3 +28,12 @@ tecnologias:
 #after effects
 #photoshop
 #premiere
+#dev tools
+#performance
+
+SOFT skills:
+#creative
+#problem solver
+#team work
+#adaptabilidade
+#curiosidade
