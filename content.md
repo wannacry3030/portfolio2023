@@ -1,6 +1,6 @@
 criar um efeito de zoom ao passar o mouse nos quadrados
 ~ ok
-ajustas a paleta de cores (definir a paleta) 
+ajustas a paleta de cores (definir a paleta)
 ~ ok
 decidir qual fonte ssera utilizada nesse projeto
 ~ ok
@@ -13,7 +13,18 @@ Desde criança, descobri minha paixão pela tecnologia. Aos seis anos, já desmo
 #incluir programar de computador que eu domino
 #incluir sistemas operacionais e soft skill
 
-
-
 #otimizar todas as paginas para mobile
 #otimizar minhas "redes sociais "
+
+tecnologias:
+#git
+#linux
+#powershell
+#javascript
+#html/css
+#python3
+#web pentest
+#illustrator
+#after effects
+#photoshop
+#premiere
