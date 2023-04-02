@@ -35,6 +35,7 @@ window.addEventListener("load", () => {
 });
 
 //POP UP
+//POP UP
 // seleciona todos os quadrados
 const squares = document.querySelectorAll(".grid-item");
 
@@ -56,4 +57,16 @@ items.forEach((item) => {
 
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
+});
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    modal.style.display = "none";
+  }
+});
+
+document.addEventListener("click", (event) => {
+  if (!modal.contains(event.target) && !item.contains(event.target)) {
+    modal.style.display = "none";
+  }
 });
