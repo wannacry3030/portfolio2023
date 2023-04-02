@@ -59,14 +59,13 @@ closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
-window.addEventListener("keydown", (event) => {
+window.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
     modal.style.display = "none";
   }
 });
-
-document.addEventListener("click", (event) => {
-  if (!modal.contains(event.target) && !item.contains(event.target)) {
+window.addEventListener("click", function (event) {
+  if (event.target == modal) {
     modal.style.display = "none";
   }
 });
