@@ -181,7 +181,8 @@ footer {
 
 /*item de grade quando ele é passado com o mouse */
 .grid-item:hover {
-  background-color: #ddd;
+  background-color: rgb(252, 225, 190);
+  color: #6b6b6b;
 }
 
 /* estilo para dispositivos móveis */
