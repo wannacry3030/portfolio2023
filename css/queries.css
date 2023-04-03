@@ -99,6 +99,9 @@
   }
 }
 @media (max-width: 370px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .gif-container {
     width: 1%;
     opacity: 0.2;
@@ -136,10 +139,5 @@
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
   }
 }
