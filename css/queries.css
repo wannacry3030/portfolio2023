@@ -4,8 +4,40 @@
 /* ************* */
 /* BELLOW 1344PX (smaller desktops) */
 /* ************* */
+@media (max-width: 750px) {
+  .gif-container {
+    width: 1%;
+    opacity: 0.2;
+  }
+  .intro-container {
+    width: 100%;
+  }
+  .intro-container p {
+    margin-bottom: 80px;
+    line-height: 45px;
+    /* background-color: #00000080; */
+    color: #fff;
+    opacity: 100%;
+    font-size: 34px;
+  }
+  .intro-container h1 {
+    font-size: 5rem;
+  }
+  .menu {
+    padding: 0 5px;
+    font-size: 23px;
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* estilo para dispositivos móveis */
+
 @media (max-width: 480px) {
   .gif-container {
     width: 1%;
