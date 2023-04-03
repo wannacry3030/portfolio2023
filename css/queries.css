@@ -4,7 +4,7 @@
 /* ************* */
 /* BELLOW 1344PX (smaller desktops) */
 /* ************* */
-@media (max-width: 750px) {
+@media (max-width: 780px) {
   .gif-container {
     width: 1%;
     opacity: 0.2;
