@@ -18,6 +18,8 @@
     margin-bottom: 80px;
     line-height: 25px;
     /* background-color: #00000080; */
+    color: #fff;
+    opacity: 100%;
   }
   .intro-container h1 {
     font-size: 2rem;
