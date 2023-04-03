@@ -100,14 +100,14 @@
 }
 @media (max-width: 370px) {
   .gif-container {
-    width: 0.9%;
+    width: 1%;
     opacity: 0.2;
   }
   .intro-container {
     width: 100%;
   }
   img {
-    width: 370px;
+    width: 360px;
   }
   .intro-container p {
     margin-bottom: 20px;
@@ -124,7 +124,7 @@
   }
   .menu {
     /* padding: 0 5px; */
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 30px;
   }
   h2 {
