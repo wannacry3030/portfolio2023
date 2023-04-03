@@ -4,3 +4,66 @@
 /* ************* */
 /* BELLOW 1344PX (smaller desktops) */
 /* ************* */
+
+/* estilo para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Adicione regras de estilo para tablets aqui */
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .header img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Press Start 2P";
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    flex-direction: row;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+
+  .intro-container h1 {
+    font-size: 1rem;
+  }
+
+  .intro-container p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-family: "Inter";
+    font-weight: 500;
+  }
+}
