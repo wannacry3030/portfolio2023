@@ -98,8 +98,12 @@ h2 {
 /* GRID */
 .grid {
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
 }
 
 /* SQUARE */

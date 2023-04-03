@@ -36,6 +36,9 @@
   h2 {
     font-size: 45px;
   }
+  .grid {
+    grid-template-columns: 1fr;
+  }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -93,5 +96,47 @@
     margin-top: 10px;
     margin-right: 30px;
     margin-left: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .gif-container {
+    width: 0.9%;
+    opacity: 0.2;
+  }
+  .intro-container {
+    width: 100%;
+  }
+  img {
+    width: 370px;
+  }
+  .intro-container p {
+    margin-bottom: 20px;
+    line-height: 28px;
+    /* background-color: #00000080; */
+    color: #fff;
+    opacity: 100%;
+    font-size: 18px;
+  }
+  .intro-container h1 {
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .menu {
+    /* padding: 0 5px; */
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .icons {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
