@@ -130,13 +130,16 @@
   h2 {
     font-size: 15px;
   }
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
   .icons {
     font-size: 20px;
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
 }

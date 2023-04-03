@@ -161,6 +161,7 @@ h2 {
 
 .icons {
   margin-right: 10px;
+  font-size: 20px;
 }
 
 .icons:hover {
@@ -182,8 +183,9 @@ footer {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px 20px;
+  gap: 10px 10px;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 /*item de grade */
