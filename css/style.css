@@ -18,6 +18,9 @@
 }
 
 /* MENU DE NAVEGAÇÃO */
+main {
+  display: flex;
+}
 .menu {
   display: flex;
   justify-content: space-between;
@@ -29,7 +32,13 @@
   flex-direction: row;
   margin: 0 auto;
 }
-
+.gif-container {
+  width: 45%;
+}
+.intro-container {
+  width: 50%;
+  text-align: left;
+}
 .intro-container h1 {
   font-size: 3rem;
 }
