@@ -34,10 +34,14 @@
     margin-bottom: 50px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 45px;
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+#modal-description{
+  font-size: 30px;
+}
   }
   .icons {
     font-size: 3em;
