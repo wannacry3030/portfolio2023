@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   .menu {
     display: flex;
     justify-content: space-between;
